@@ -1,8 +1,19 @@
-import { render, screen } from '@testing-library/react';
 import App from './App';
+import { shallow, mount, render } from 'enzyme';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+import Header from './components/Header/Header'
+
+
+describe('Content Layout',()=>{
+  test('Has one Header',()=>{
+
+    const wrapper = shallow(<App />);
+
+    console.log(wrapper.debug())
+    
+    expect(wrapper.find(Header)).toHaveLength(1)
+
+  })
+
+
+})

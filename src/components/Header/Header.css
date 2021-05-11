@@ -1,0 +1,25 @@
+.Banner {
+  background: #ff6933;
+  background-position: center top;
+  height: 128px;
+}
+
+#cybersecurity-img {
+  border-radius: 100%;
+  border: 4px solid #fff;
+  display: inline-block;
+  height: 128px;
+  width: 164px;
+}
+
+.Details {
+  width: 100%;
+  height: 100px;
+  display: inline;
+}
+
+#Reddit_Title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}

@@ -1,0 +1,9 @@
+.modal-dialog {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+}
+
+img {
+  width: 50%;
+}
