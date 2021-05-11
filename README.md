@@ -77,9 +77,10 @@ This is how the page is being populated using the feed, each entry is passed to 
 
 Each Entry Component Has two Sub Compoents 
 
-  1.The Cards Which display the title and the Authors user name
-  2.The Entry Detail which displays the HTML content
-  
+  <ul>
+    <li>The Cards Which display the title and the Authors user name</li>
+    <li>The Entry Detail which displays the HTML content</li>
+  </ul>
   
 
 
